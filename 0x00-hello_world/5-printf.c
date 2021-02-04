@@ -1,3 +1,2 @@
 #!/bin/bash
-gcc -Wall << 5-printf.c
-
+gcc -Wall -C 5-printf.c
