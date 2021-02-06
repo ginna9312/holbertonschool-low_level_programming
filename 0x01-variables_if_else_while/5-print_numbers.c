@@ -1,7 +1,7 @@
 #include <stdio.h>
- #include <string.h>
+#include <string.h>
 /**
- * main - putchar
+ * main - numbers
  * print number
  * Return: Always 0 (Success)
  */
@@ -15,4 +15,5 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
+
 }
