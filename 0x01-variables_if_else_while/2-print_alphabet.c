@@ -1,14 +1,18 @@
 #include <stdio.h>
-/* more headers goes there */
-/* betty style doc for function main goes there */
+#include <string.h>
+/**
+ * main - putchar
+ * print alphabet
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	char a;
 
 	for (a = 'a'; a <= 'z'; a++)
-		{
-			putchar(a);
-		}
+	{
+		putchar(a);
+	}
 	putchar ('\n');
-		return (0);
+	return (0);
 }
