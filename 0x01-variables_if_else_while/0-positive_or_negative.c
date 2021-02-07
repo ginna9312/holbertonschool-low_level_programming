@@ -1,27 +1,28 @@
- #include <stdio.h>
- #include <string.h>
-/**
- * main - putchar
- * print number
- * Return: Always 0 (Success)
- */
+ 
+#include <stdlib.h>
+#include <time.h>
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
 int main(void)
 {
 	int n, p;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2; 
-	if (n < 0)
+	n = rand() - RAND_MAX / 2 }
+        p = %18;
+
+	if(p > 0)
 		{
-			printf("%d is negative \n",n)
+			printf("%p is %p and is grater than 5\n" ,p);
 		}
-	if (n == 0)
+	else if(n == 0)
 		{
-			printf("%d is zero\n",n)
+			printf("%p is %p and is 0\n" ,p)
 		}
-	if (n > 0)
+       else(n > 0)
 		{
-			printf("%d is positive\n",n)
+			printf("%p is %p positive\n" ,n)
 		}
 	return (0);
 }
