@@ -6,23 +6,25 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	int n, p;
+	int n, d;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	p = n % 10;
+	d = n % 10;
 
-	if (p > 5)
+	/* your code goes there */
+
+	if (d > 5)
 	{
-		printf("last digit %d is %d and is greater than 5\n", n, p);
+		printf("Last digit of %d is %d and is greater than 5\n", n, d);
 	}
-	else if (p == 0)
+	else if (n == 0)
 	{
-		printf("last digit of %d is %d and is 0\n", n, p);
+		printf("Last digit of %d is %d and is 0\n", n, d);
 	}
 	else
 	{
-		printf("last digit of %d and is less than 6 and not 0\n", n, p);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, d);
 	}
 	return (0);
 }
