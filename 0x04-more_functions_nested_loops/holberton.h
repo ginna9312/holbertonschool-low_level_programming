@@ -39,5 +39,6 @@ void print_square(int size);
 void print_triangle(int size);
 
 /*prints a char to the stdout*/
+int _putchar(char c);
 
 #endif
