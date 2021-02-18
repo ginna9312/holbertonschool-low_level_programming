@@ -1,9 +1,9 @@
 # include "holberton.h"
 /**
-*_strcpy - copies
-*@dest: pointer
+* _strcpy - copies the string pointed to by src.
+*@dest: pointer string
 *@src: pointer
-*return: the value dest
+*Return: the value dest
 */
 char *_strcpy(char *dest, char *src)
 {
