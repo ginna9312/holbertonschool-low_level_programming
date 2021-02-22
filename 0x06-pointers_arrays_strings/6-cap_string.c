@@ -11,12 +11,7 @@ char *cap_string(char *p)
 
 	count = 0;
 
-	if (p[count] >= 'a' && p[count] <= 'z')
-	{
-		p[count] = p[count] - 32;
-		count++;
-	}
-	while (p[count] != '\0')
+		while (p[count] != '\0')
 	{
 		if (p[count] == ' ' || p[count] == ',' || p[count] == ';'
 		    || p[count] == '.' || p[count] == '!' || p[count] == '?'
